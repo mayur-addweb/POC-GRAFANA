@@ -1,0 +1,30 @@
+---
+# tasks file for prometheus
+
+    - name: copy file from prometheus for service 
+      ansible.builtin.copy:
+       src: /home/ubuntu/prometheus-2.33.3.linux-amd64/./
+       dest: /usr/local/bin/prometheus
+      become: yes
+
+    - name: chnage permission
+      ansible.builtin.file:
+       path: /usr/local/bin/prometheus/prometheus
+       mode: '0755'
+      become: yes
+
+    - name: copy service file  
+      ansible.builtin.copy:
+       src: /home/ubuntu/ansible/servicefiles/prometheus-service
+       dest: /etc/systemd/system/prometheus.service
+      become: yes
+
+
+    - name: start prometheus service
+      ansible.builtin.service:
+        name: prometheus
+        state: started
+
+
+   # - name: copy script 
+   #   shell: /home/ubuntu/ansible/jon.sh

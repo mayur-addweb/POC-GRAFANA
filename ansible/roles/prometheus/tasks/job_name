@@ -1,0 +1,3 @@
+  - job_name: "prometheus server"
+    static_configs:
+      - targets: ["3.17.14.79:9090"]

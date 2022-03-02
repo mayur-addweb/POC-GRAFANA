@@ -1,0 +1,13 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 36615
+
+[11:58:51] Extension host agent started.
+[11:58:52] [127.0.0.1][4b4e8e78][ManagementConnection] Unknown reconnection token (never seen).
