@@ -13,11 +13,25 @@
         src: /home/ubuntu/prometheus-2.33.3.linux-amd64.tar.gz
         dest: /home/ubuntu
 
+
     - name: copy file from prometheus for service
       delegate_to: 127.0.0.1 
       ansible.builtin.copy:
-       src: /home/ubuntu/prometheus-2.33.3.linux-amd64/.
+       src: /home/ubuntu/prometheus-2.33.3.linux-amd64/./
        dest: /usr/local/bin/prometheus
+      become: yes
+
+    - name: Change file  permissions
+      delegate_to: 127.0.0.1 
+      ansible.builtin.file:
+       path: /usr/local/bin/prometheus/prometheus
+       mode: '0777'
+      become: yes
+
+    - name: daemon reload
+      delegate_to: 127.0.0.1
+      ansible.builtin.systemd:
+        daemon_reload: yes  
       become: yes
 
     - name: copy service file
@@ -26,14 +40,10 @@
        src: /home/ubuntu/ansible/servicefiles/prometheus-service
        dest: /etc/systemd/system/prometheus.service
       become: yes
-
-
+ 
+   
     - name: start prometheus service
       delegate_to: 127.0.0.1
       ansible.builtin.service:
         name: prometheus
         state: started
-
-
-   # - name: copy script 
-   #   shell: /home/ubuntu/ansible/jon.sh

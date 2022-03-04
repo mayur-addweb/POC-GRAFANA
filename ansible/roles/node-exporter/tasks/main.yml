@@ -19,7 +19,27 @@
        dest: /etc/systemd/system/node.service
       become: yes
 
+    - name: Change file  permissions
+      ansible.builtin.file:
+       path: /usr/local/bin/node/node_exporter
+       mode: '0777'
+      become: yes
+
+    - name: Just force systemd to reread configs (2.4 and above)
+      ansible.builtin.systemd:
+        daemon_reload: yes
+
+    - name: daemon reload
+      ansible.builtin.systemd:
+        daemon_reload: yes  
+      become: yes
+
     - name: start node exporter service
       ansible.builtin.service:
         name: node
         state: started
+
+    - name: Run a script for add node in prometheus 
+      delegate_to: 127.0.0.1
+      shell: /home/ubuntu/ansible/roles/node-exporter/tasks/job.sh
+      become: yes
