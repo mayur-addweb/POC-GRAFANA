@@ -1,19 +1,27 @@
 ---
 # tasks file for prometheus
+    - name: download prometheus 
+      delegate_to: 127.0.0.1
+      get_url:
+       url: https://github.com/prometheus/prometheus/releases/download/v2.33.3/prometheus-2.33.3.linux-amd64.tar.gz
+       dest: /home/ubuntu
+     
+       
+    - name: unarchive prometheus file
+      delegate_to: 127.0.0.1
+      ansible.builtin.unarchive:
+        src: /home/ubuntu/prometheus-2.33.3.linux-amd64.tar.gz
+        dest: /home/ubuntu
 
-    - name: copy file from prometheus for service 
+    - name: copy file from prometheus for service
+      delegate_to: 127.0.0.1 
       ansible.builtin.copy:
-       src: /home/ubuntu/prometheus-2.33.3.linux-amd64/./
+       src: /home/ubuntu/prometheus-2.33.3.linux-amd64/.
        dest: /usr/local/bin/prometheus
       become: yes
 
-    - name: chnage permission
-      ansible.builtin.file:
-       path: /usr/local/bin/prometheus/prometheus
-       mode: '0755'
-      become: yes
-
-    - name: copy service file  
+    - name: copy service file
+      delegate_to: 127.0.0.1  
       ansible.builtin.copy:
        src: /home/ubuntu/ansible/servicefiles/prometheus-service
        dest: /etc/systemd/system/prometheus.service
@@ -21,6 +29,7 @@
 
 
     - name: start prometheus service
+      delegate_to: 127.0.0.1
       ansible.builtin.service:
         name: prometheus
         state: started
