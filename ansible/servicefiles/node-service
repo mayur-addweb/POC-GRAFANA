@@ -1,5 +1,5 @@
 [Unit]
-Descrtiption=Prometheus Node Service
+Descrtiption=Prometheus Node exporter Service
 After=network.target
 
 [Service]

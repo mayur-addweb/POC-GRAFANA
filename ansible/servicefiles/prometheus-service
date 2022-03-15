@@ -1,5 +1,5 @@
 [Unit]
-Descrtiption=Prometheus Service
+Descrtiption=Prometheus Local Service
 After=network.target
 
 [Service]

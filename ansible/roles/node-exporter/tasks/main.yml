@@ -25,10 +25,6 @@
        mode: '0777'
       become: yes
 
-    - name: Just force systemd to reread configs (2.4 and above)
-      ansible.builtin.systemd:
-        daemon_reload: yes
-
     - name: daemon reload
       ansible.builtin.systemd:
         daemon_reload: yes  

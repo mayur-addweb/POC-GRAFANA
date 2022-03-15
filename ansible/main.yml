@@ -4,8 +4,9 @@
   gather_facts: false
 
   roles:
-      - prometheus
-      - node-exporter
+    #  - prometheus
+    #  - node-exporter
+      - grafana
 
 
 

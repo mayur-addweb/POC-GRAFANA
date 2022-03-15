@@ -1,2 +1,85 @@
 ---
-# tasks file for grafana
+#tasks file for grafana
+- name: add grafana gpg key
+  delegate_to: 127.0.0.1
+  shell: curl https://packages.grafana.com/gpg.key | sudo apt-key add -
+
+- name: add grafana repo 
+  delegate_to: 127.0.0.1
+  apt_repository:
+    repo: deb https://packages.grafana.com/oss/deb stable main
+    state: present
+  become: yes
+
+- name: Install grafana
+  delegate_to: 127.0.0.1
+  apt: 
+      name: grafana
+      state: present
+  become: yes
+      
+- name: start grafana  service
+  delegate_to: 127.0.0.1
+  ansible.builtin.service:
+    name: grafana-server
+    state: started
+  become: yes
+
+
+
+
+- name: Download grafana v7.5.15
+  delegate_to: 127.0.0.1
+  get_url:
+    url: https://dl.grafana.com/enterprise/release/grafana-enterprise_7.5.15_amd64.deb
+    dest: /home/ubuntu
+
+
+- name: Install grafana
+  delegate_to: 127.0.0.1
+  shell: dpkg -i grafana-enterprise_7.5.15_amd64.deb
+  args:
+   chdir: /home/ubuntu 
+  become: yes
+
+- name: start grafana  service
+  delegate_to: 127.0.0.1
+  ansible.builtin.service:
+    name: grafana-server
+    state: restarted
+  become: yes
+
+
+
+
+  # - name: Import Grafana dashboard Zabbix
+  #   community.grafana.grafana_dashboard:
+  #     grafana_url: http://18.119.156.51:3000
+  #     grafana_api_key: eyJrIjoiTHFSOElxeWhpd3VYSTNZNWkyWXJHdXNzU01JVmVXVEEiLCJuIjoibWF5dXIiLCJpZCI6MX0=
+  #     folder: prometheus 
+  #     dashboard_id: 1860
+  #     dashbord_revision: 1
+
+
+# - name: Create or update a Grafana user
+#   community.grafana.grafana_user:
+#     url: "http://18.119.156.51:3000"
+#     url_username: admin
+#     url_password: admin
+#     name: "addweb"
+#     email: mayur@gmail.com
+#     login: addweb
+#     password: addweb
+#     is_admin: true
+#     state: present
+
+- name: create prometheus datasource
+  community.grafana.grafana_datasource:
+    name: pro
+    ds_type: prometheus
+    ds_url: "http://18.119.156.51:9090"
+    access: direct
+    grafana_url: "http://18.119.156.51:3000"
+    grafana_user: "admin"
+    grafana_password: "addweb"
+    org_id: "1"
