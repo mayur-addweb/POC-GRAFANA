@@ -1,5 +1,5 @@
 ---
-#tasks file for grafana
+# #tasks file for grafana
 - name: add grafana gpg key
   delegate_to: 127.0.0.1
   shell: curl https://packages.grafana.com/gpg.key | sudo apt-key add -
@@ -25,15 +25,11 @@
     state: started
   become: yes
 
-
-
-
 - name: Download grafana v7.5.15
   delegate_to: 127.0.0.1
   get_url:
     url: https://dl.grafana.com/enterprise/release/grafana-enterprise_7.5.15_amd64.deb
     dest: /home/ubuntu
-
 
 - name: Install grafana
   delegate_to: 127.0.0.1
@@ -50,29 +46,6 @@
   become: yes
 
 
-
-
-  # - name: Import Grafana dashboard Zabbix
-  #   community.grafana.grafana_dashboard:
-  #     grafana_url: http://18.119.156.51:3000
-  #     grafana_api_key: eyJrIjoiTHFSOElxeWhpd3VYSTNZNWkyWXJHdXNzU01JVmVXVEEiLCJuIjoibWF5dXIiLCJpZCI6MX0=
-  #     folder: prometheus 
-  #     dashboard_id: 1860
-  #     dashbord_revision: 1
-
-
-# - name: Create or update a Grafana user
-#   community.grafana.grafana_user:
-#     url: "http://18.119.156.51:3000"
-#     url_username: admin
-#     url_password: admin
-#     name: "addweb"
-#     email: mayur@gmail.com
-#     login: addweb
-#     password: addweb
-#     is_admin: true
-#     state: present
-
 - name: create prometheus datasource
   community.grafana.grafana_datasource:
     name: pro
@@ -81,5 +54,17 @@
     access: direct
     grafana_url: "http://18.119.156.51:3000"
     grafana_user: "admin"
-    grafana_password: "addweb"
+    grafana_password: "admin"
     org_id: "1"
+
+- name: Import Grafana dashboard node
+  community.grafana.grafana_dashboard:
+    grafana_url: http://18.119.156.51:3000
+    grafana_user: "admin"
+    grafana_password: "addweb"
+    folder: General
+    dashboard_url: https://grafana.com/api/dashboards/1860/revisions/26/download
+    overwrite: yes
+
+
+   
