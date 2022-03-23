@@ -3,10 +3,16 @@
   become: no
   gather_facts: false
 
+  vars_prompt:
+    - name: "Version"
+      prompt: "Enter your remote server ip?"
+      private: no
+
   roles:
-    #  - prometheus
-    #  - node-exporter
+      - prometheus
+      - node-exporter
       - grafana
+      - blackbox_exporter
 
 
 

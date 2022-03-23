@@ -1,0 +1,48 @@
+---
+# tasks file for blackbox_exporter
+
+- name: unarchive blackbox exporter 
+  delegate_to: 127.0.0.1
+  ansible.builtin.unarchive:
+    src: https://github.com/prometheus/blackbox_exporter/releases/download/v0.20.0-rc.0/blackbox_exporter-0.20.0-rc.0.linux-amd64.tar.gz
+    dest: /home/ubuntu
+    remote_src: yes
+
+- name: copy file from blackbox exporter for service 
+  delegate_to: 127.0.0.1
+  ansible.builtin.copy:
+    src: /home/ubuntu/blackbox_exporter-0.20.0-rc.0.linux-amd64/.
+    dest: /usr/local/bin/blackbox
+    remote_src: yes
+  become: yes
+
+- name: copy service file 
+  delegate_to: 127.0.0.1 
+  ansible.builtin.copy:
+    src: /home/ubuntu/ansible/servicefiles/blackbox-service
+    dest: /etc/systemd/system/blackbox.service
+  become: yes
+
+- name: Change file  permissions
+  delegate_to: 127.0.0.1
+  ansible.builtin.file:
+    path: /usr/local/bin/blackbox/blackbox_exporter
+    mode: '0777'
+  become: yes
+
+- name: daemon reload
+  delegate_to: 127.0.0.1
+  ansible.builtin.systemd:
+    daemon_reload: yes  
+  become: yes
+
+- name: start blackbox  exporter service
+  delegate_to: 127.0.0.1
+  ansible.builtin.service:
+    name: blackbox
+    state: started
+
+- name: Run a script for add blackbox in prometheus 
+  delegate_to: 127.0.0.1
+  shell: /home/ubuntu/ansible/roles/node-exporter/tasks/job.sh {{ Version }}
+  become: yes 
