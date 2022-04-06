@@ -1,0 +1,32 @@
+[2022-04-06 06:38:35.107] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2022-04-06 06:38:35.107] [remoteagent] [info] Extension host agent started.
+[2022-04-06 06:38:35.820] [remoteagent] [info] Deleted from disk pascalreitermann93.vscode-yaml-sort /home/ubuntu/.vscode-server/extensions/pascalreitermann93.vscode-yaml-sort-5.1.6
+[2022-04-06 06:38:36.012] [remoteagent] [info] [127.0.0.1][7d4c7029][ManagementConnection] New connection established.
+[2022-04-06 06:38:36.558] [remoteagent] [info] [127.0.0.1][88fc09fd][ExtensionHostConnection] New connection established.
+[2022-04-06 06:38:36.572] [remoteagent] [info] [127.0.0.1][88fc09fd][ExtensionHostConnection] <1942> Launched Extension Host Process.
+[2022-04-06 06:38:40.178] [remoteagent] [info] Installing extension: pascalreitermann93.vscode-yaml-sort
+[2022-04-06 06:38:40.877] [remoteagent] [info] Downloaded extension: pascalreitermann93.vscode-yaml-sort /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/pascalreitermann93.vscode-yaml-sort-5.3.0
+[2022-04-06 06:38:41.883] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.de81f7b7-734c-419a-88ac-3e2cc328fdf0: pascalreitermann93.vscode-yaml-sort
+[2022-04-06 06:38:41.895] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/pascalreitermann93.vscode-yaml-sort-5.3.0
+[2022-04-06 06:38:41.896] [remoteagent] [info] Extracting completed. pascalreitermann93.vscode-yaml-sort
+[2022-04-06 06:38:41.900] [remoteagent] [info] Extension installed successfully: pascalreitermann93.vscode-yaml-sort
+[2022-04-06 06:38:44.131] [remoteagent] [info] [127.0.0.1][7d4c7029][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-04-06 06:38:45.150] [remoteagent] [info] [127.0.0.1][88fc09fd][ExtensionHostConnection] <1942> Extension Host Process exited with code: 0, signal: null.
+[2022-04-06 06:38:45.150] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-04-06 06:38:46.448] [remoteagent] [info] [127.0.0.1][8fe2476e][ManagementConnection] New connection established.
+[2022-04-06 06:38:46.964] [remoteagent] [info] [127.0.0.1][8e2adf15][ExtensionHostConnection] New connection established.
+[2022-04-06 06:38:46.979] [remoteagent] [info] [127.0.0.1][8e2adf15][ExtensionHostConnection] <1963> Launched Extension Host Process.
+[2022-04-06 06:40:52.826] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-04-06 06:40:52.828] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-04-06 06:40:53.935] [remoteagent] [info] [127.0.0.1][8fe2476e][ManagementConnection] The client has reconnected.
+[2022-04-06 06:40:54.584] [remoteagent] [info] [127.0.0.1][8e2adf15][ExtensionHostConnection] The client has reconnected.
+[2022-04-06 06:45:52.830] [remoteagent] [info] New EH opened, aborting shutdown

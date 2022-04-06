@@ -1,0 +1,76 @@
+[2022-03-14 05:13:54.457] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2022-03-14 05:13:54.457] [remoteagent] [info] Extension host agent started.
+[2022-03-14 05:13:55.602] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] New connection established.
+[2022-03-14 05:13:56.199] [remoteagent] [info] [127.0.0.1][833e1061][ExtensionHostConnection] New connection established.
+[2022-03-14 05:13:56.221] [remoteagent] [info] [127.0.0.1][833e1061][ExtensionHostConnection] <44789> Launched Extension Host Process.
+[2022-03-14 05:15:56.255] [remoteagent] [info] [127.0.0.1][d58fe9ef][ManagementConnection] New connection established.
+[2022-03-14 05:15:56.923] [remoteagent] [info] [127.0.0.1][72a5ec11][ExtensionHostConnection] New connection established.
+[2022-03-14 05:15:56.934] [remoteagent] [info] [127.0.0.1][72a5ec11][ExtensionHostConnection] <44854> Launched Extension Host Process.
+[2022-03-14 05:16:54.462] [remoteagent] [info] [127.0.0.1][d58fe9ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-03-14 05:16:55.487] [remoteagent] [info] [127.0.0.1][72a5ec11][ExtensionHostConnection] <44854> Extension Host Process exited with code: 0, signal: null.
+[2022-03-14 05:16:56.961] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] New connection established.
+[2022-03-14 05:16:57.646] [remoteagent] [info] [127.0.0.1][2ff53ef7][ExtensionHostConnection] New connection established.
+[2022-03-14 05:16:57.659] [remoteagent] [info] [127.0.0.1][2ff53ef7][ExtensionHostConnection] <44903> Launched Extension Host Process.
+[2022-03-14 06:07:20.741] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 06:07:24.048] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-14 06:07:24.050] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has reconnected.
+[2022-03-14 06:07:24.620] [remoteagent] [info] [127.0.0.1][2ff53ef7][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 06:07:30.435] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has reconnected.
+[2022-03-14 06:07:36.341] [remoteagent] [info] [127.0.0.1][833e1061][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 06:22:43.239] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 06:22:44.549] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-14 06:22:44.550] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has reconnected.
+[2022-03-14 06:22:44.805] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has reconnected.
+[2022-03-14 06:22:45.092] [remoteagent] [info] [127.0.0.1][2ff53ef7][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 06:22:45.358] [remoteagent] [info] [127.0.0.1][833e1061][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 06:33:29.041] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 06:33:29.649] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-14 06:33:29.650] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has reconnected.
+[2022-03-14 06:33:29.678] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has reconnected.
+[2022-03-14 06:33:34.907] [remoteagent] [info] [127.0.0.1][2ff53ef7][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 06:33:35.174] [remoteagent] [info] [127.0.0.1][833e1061][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 06:53:36.385] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has reconnected.
+[2022-03-14 06:53:36.998] [remoteagent] [info] [127.0.0.1][2ff53ef7][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 06:53:41.971] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has reconnected.
+[2022-03-14 06:53:42.591] [remoteagent] [info] [127.0.0.1][833e1061][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 08:50:31.766] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 08:50:41.644] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 09:30:57.403] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-14 09:30:57.405] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-14 09:30:57.407] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has reconnected.
+[2022-03-14 09:31:02.705] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has reconnected.
+[2022-03-14 09:31:03.755] [remoteagent] [info] [127.0.0.1][833e1061][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 09:31:26.516] [remoteagent] [info] [127.0.0.1][2ff53ef7][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 11:07:44.067] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 11:08:50.540] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 11:08:57.958] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-14 11:08:57.959] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-14 11:08:57.961] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has reconnected.
+[2022-03-14 11:08:58.574] [remoteagent] [info] [127.0.0.1][833e1061][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 11:09:03.683] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has reconnected.
+[2022-03-14 11:09:04.232] [remoteagent] [info] [127.0.0.1][2ff53ef7][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 12:26:18.591] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 12:27:39.949] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-14 12:27:39.950] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has reconnected.
+[2022-03-14 12:27:40.506] [remoteagent] [info] [127.0.0.1][833e1061][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 12:27:43.426] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 12:27:49.982] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-14 12:27:49.984] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has reconnected.
+[2022-03-14 12:27:50.579] [remoteagent] [info] [127.0.0.1][2ff53ef7][ExtensionHostConnection] The client has reconnected.
+[2022-03-14 14:08:30.509] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 14:08:39.111] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-14 17:08:35.107] [remoteagent] [info] [127.0.0.1][3d384d53][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-03-14 17:08:40.318] [remoteagent] [info] [127.0.0.1][833e1061][ExtensionHostConnection] <44789> Extension Host Process exited with code: 0, signal: null.
+[2022-03-14 17:08:40.666] [remoteagent] [info] [127.0.0.1][2ff53ef7][ExtensionHostConnection] <44903> Extension Host Process exited with code: 0, signal: null.
+[2022-03-14 17:08:40.666] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-03-14 17:08:44.107] [remoteagent] [info] [127.0.0.1][2bd113a6][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-03-14 17:13:40.666] [remoteagent] [info] Last EH closed, shutting down

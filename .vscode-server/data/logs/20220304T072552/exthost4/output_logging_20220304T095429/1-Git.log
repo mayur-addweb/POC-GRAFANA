@@ -1,0 +1,524 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/ubuntu
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ansible/roles/prometheus/tasks/jon.sh
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/jon.sh
+> git cat-file -s 809b1dccc596b04945cbb2a14f13601eb256285f
+> git show --textconv :ansible/roles/prometheus/tasks/job_name
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/job_name
+> git cat-file -s ecb8b79338d956749a86704ec907135b8aa4f9ee
+> git show --textconv :ansible/roles/prometheus/tasks/jon.sh
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/jon.sh
+> git cat-file -s 809b1dccc596b04945cbb2a14f13601eb256285f
+> git show --textconv :ansible/roles/node-exporter/tasks/job.sh
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/job.sh
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :ansible/roles/prometheus/tasks/jon.sh
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/jon.sh
+> git cat-file -s 809b1dccc596b04945cbb2a14f13601eb256285f
+> git show --textconv :ansible/roles/node-exporter/tasks/job.sh
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/job.sh
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :ansible/roles/prometheus/tasks/job_name
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/job_name
+> git cat-file -s ecb8b79338d956749a86704ec907135b8aa4f9ee
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git show --textconv :ansible/roles/node-exporter/tasks/job.sh
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/job.sh
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/prometheus/tasks/job_name
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/job_name
+> git cat-file -s ecb8b79338d956749a86704ec907135b8aa4f9ee
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/jon.sh
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/jon.sh
+> git cat-file -s 809b1dccc596b04945cbb2a14f13601eb256285f
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/ubuntu/ansible/roles/prometheus/tasks/jon.sh
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/jon.sh
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/jon.sh
+> git cat-file -s 809b1dccc596b04945cbb2a14f13601eb256285f
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/job.sh
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/job.sh
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/ubuntu/ansible/servicefiles/node-service
+> git show --textconv :ansible/servicefiles/node-service
+> git ls-files --stage -- /home/ubuntu/ansible/servicefiles/node-service
+> git cat-file -s 8867eb422962598ea00189029abd37337cba933e
+> git show --textconv :ansible/servicefiles/prometheus-service
+> git ls-files --stage -- /home/ubuntu/ansible/servicefiles/prometheus-service
+> git cat-file -s 3ddbf8e747c7198579a98ebf7a4cc7e4ce0e5982
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/servicefiles/prometheus-service
+> git ls-files --stage -- /home/ubuntu/ansible/servicefiles/prometheus-service
+> git cat-file -s 3ddbf8e747c7198579a98ebf7a4cc7e4ce0e5982
+> git show --textconv :ansible/servicefiles/node-service
+> git ls-files --stage -- /home/ubuntu/ansible/servicefiles/node-service
+> git cat-file -s 8867eb422962598ea00189029abd37337cba933e
+> git show --textconv :ansible/roles/node-exporter/tasks/job.sh
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/job.sh
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/servicefiles/node-service
+> git ls-files --stage -- /home/ubuntu/ansible/servicefiles/node-service
+> git cat-file -s 8867eb422962598ea00189029abd37337cba933e
+> git show --textconv :ansible/roles/prometheus/tasks/job_name
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/job_name
+> git cat-file -s ecb8b79338d956749a86704ec907135b8aa4f9ee
+> git show --textconv :ansible/servicefiles/node-service
+> git ls-files --stage -- /home/ubuntu/ansible/servicefiles/node-service
+> git cat-file -s 8867eb422962598ea00189029abd37337cba933e
+> git status -z -u
+> git show --textconv :ansible/servicefiles/prometheus-service
+> git ls-files --stage -- /home/ubuntu/ansible/servicefiles/prometheus-service
+> git cat-file -s 3ddbf8e747c7198579a98ebf7a4cc7e4ce0e5982
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git status -z -u
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s f4194ead51bcefa0a891e81cbe0e16e969036b88
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 9a9dd905d9e56319fce91cc5b1ac9d77001dbe36
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 031253fd658ea2ff1c8ae5e6ba50b5a5ab9d2099
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :ansible/roles/grafana/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/grafana/tasks/main.yml
+> git cat-file -s faf245413030112ab2e7fd1f456bb4d4086e49a5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 031253fd658ea2ff1c8ae5e6ba50b5a5ab9d2099
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s dd3632e4076f956b523f1382cf3e3553080c901d
+> git show --textconv :ansible/roles/grafana/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/grafana/tasks/main.yml
+> git cat-file -s faf245413030112ab2e7fd1f456bb4d4086e49a5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 031253fd658ea2ff1c8ae5e6ba50b5a5ab9d2099
+> git show --textconv :ansible/roles/grafana/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/grafana/tasks/main.yml
+> git cat-file -s faf245413030112ab2e7fd1f456bb4d4086e49a5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :ansible/roles/prometheus/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/prometheus/tasks/main.yml
+> git cat-file -s dd3632e4076f956b523f1382cf3e3553080c901d
+> git show --textconv :ansible/roles/node-exporter/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/node-exporter/tasks/main.yml
+> git cat-file -s 031253fd658ea2ff1c8ae5e6ba50b5a5ab9d2099
+> git show --textconv :ansible/roles/grafana/tasks/main.yml
+> git ls-files --stage -- /home/ubuntu/ansible/roles/grafana/tasks/main.yml
+> git cat-file -s faf245413030112ab2e7fd1f456bb4d4086e49a5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

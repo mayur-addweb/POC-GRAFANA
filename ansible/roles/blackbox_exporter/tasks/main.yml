@@ -42,7 +42,8 @@
     name: blackbox
     state: started
 
-- name: Run a script for add blackbox in prometheus 
-  delegate_to: 127.0.0.1
-  shell: /home/ubuntu/ansible/roles/node-exporter/tasks/job.sh {{ Version }}
-  become: yes 
+# - name: Run a script for add blackbox in prometheus 
+#   delegate_to: 127.0.0.1
+#   shell: ./test.sh
+#    chdir: /home/ubuntu 
+#   become: yes 

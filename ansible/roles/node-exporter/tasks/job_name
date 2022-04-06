@@ -1,3 +1,3 @@
   - job_name: "node exporter"
     static_configs:
-      - targets: ["ergfre:9100"]
+      - targets: ["ip:9100"]

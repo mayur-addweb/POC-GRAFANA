@@ -1,0 +1,45 @@
+[2022-03-15 05:47:17.268] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2022-03-15 05:47:17.268] [remoteagent] [info] Extension host agent started.
+[2022-03-15 05:47:18.341] [remoteagent] [info] [127.0.0.1][b518b95a][ManagementConnection] New connection established.
+[2022-03-15 05:47:18.418] [remoteagent] [info] [127.0.0.1][64273531][ManagementConnection] New connection established.
+[2022-03-15 05:47:19.175] [remoteagent] [info] [127.0.0.1][bebc139c][ExtensionHostConnection] New connection established.
+[2022-03-15 05:47:19.176] [remoteagent] [info] [127.0.0.1][2a15ea7e][ExtensionHostConnection] New connection established.
+[2022-03-15 05:47:19.205] [remoteagent] [info] [127.0.0.1][bebc139c][ExtensionHostConnection] <56449> Launched Extension Host Process.
+[2022-03-15 05:47:19.211] [remoteagent] [info] [127.0.0.1][2a15ea7e][ExtensionHostConnection] <56450> Launched Extension Host Process.
+[2022-03-15 05:47:45.175] [remoteagent] [info] [127.0.0.1][1e96b2c1][ManagementConnection] New connection established.
+[2022-03-15 05:47:45.794] [remoteagent] [info] [127.0.0.1][2974fd0d][ExtensionHostConnection] New connection established.
+[2022-03-15 05:47:45.808] [remoteagent] [info] [127.0.0.1][2974fd0d][ExtensionHostConnection] <56540> Launched Extension Host Process.
+[2022-03-15 06:12:28.330] [remoteagent] [info] [127.0.0.1][1e96b2c1][ManagementConnection] The client has reconnected.
+[2022-03-15 06:12:33.968] [remoteagent] [info] [127.0.0.1][b518b95a][ManagementConnection] The client has reconnected.
+[2022-03-15 06:12:33.970] [remoteagent] [info] [127.0.0.1][64273531][ManagementConnection] The client has reconnected.
+[2022-03-15 06:12:34.532] [remoteagent] [info] [127.0.0.1][2a15ea7e][ExtensionHostConnection] The client has reconnected.
+[2022-03-15 06:12:34.538] [remoteagent] [info] [127.0.0.1][bebc139c][ExtensionHostConnection] The client has reconnected.
+[2022-03-15 06:12:35.117] [remoteagent] [info] [127.0.0.1][2974fd0d][ExtensionHostConnection] The client has reconnected.
+[2022-03-15 06:28:09.764] [remoteagent] [info] [127.0.0.1][1e96b2c1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-03-15 06:28:10.813] [remoteagent] [info] [127.0.0.1][2974fd0d][ExtensionHostConnection] <56540> Extension Host Process exited with code: 0, signal: null.
+[2022-03-15 06:28:32.487] [remoteagent] [info] [127.0.0.1][64273531][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-03-15 06:28:33.526] [remoteagent] [info] [127.0.0.1][bebc139c][ExtensionHostConnection] <56449> Extension Host Process exited with code: 0, signal: null.
+[2022-03-15 09:04:48.513] [remoteagent] [info] [127.0.0.1][b518b95a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-15 09:31:12.179] [remoteagent] [info] [127.0.0.1][b518b95a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-03-15 09:31:12.180] [remoteagent] [info] [127.0.0.1][b518b95a][ManagementConnection] The client has reconnected.
+[2022-03-15 09:31:41.359] [remoteagent] [info] [127.0.0.1][2a15ea7e][ExtensionHostConnection] The client has reconnected.
+[2022-03-15 11:08:48.155] [remoteagent] [info] Installing extension: pascalreitermann93.vscode-yaml-sort
+[2022-03-15 11:08:48.789] [remoteagent] [info] Downloaded extension: pascalreitermann93.vscode-yaml-sort /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/pascalreitermann93.vscode-yaml-sort-5.1.6
+[2022-03-15 11:08:50.556] [remoteagent] [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.740f39aa-58f1-4e20-b3ed-64bc05b0567f: pascalreitermann93.vscode-yaml-sort
+[2022-03-15 11:08:50.569] [remoteagent] [info] Renamed to /home/ubuntu/.vscode-server/extensions/pascalreitermann93.vscode-yaml-sort-5.1.6
+[2022-03-15 11:08:50.570] [remoteagent] [info] Extracting completed. pascalreitermann93.vscode-yaml-sort
+[2022-03-15 11:08:50.571] [remoteagent] [info] Extension installed successfully: pascalreitermann93.vscode-yaml-sort
+[2022-03-15 14:11:49.824] [remoteagent] [info] [127.0.0.1][b518b95a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-03-15 17:11:53.214] [remoteagent] [info] [127.0.0.1][2a15ea7e][ExtensionHostConnection] <56450> Extension Host Process exited with code: 0, signal: null.
+[2022-03-15 17:11:53.215] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-03-15 17:12:00.038] [remoteagent] [info] [127.0.0.1][b518b95a][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-03-15 17:16:53.217] [remoteagent] [info] Last EH closed, shutting down

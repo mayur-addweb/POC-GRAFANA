@@ -1,6 +1,0 @@
----
-# defaults file for node-exporter
-  vars_prompt:
-    - name: "Version"
-      prompt: "Enter your remote server ip?"
-      private: no

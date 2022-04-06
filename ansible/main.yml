@@ -9,10 +9,10 @@
       private: no
 
   roles:
-      - prometheus
-      - node-exporter
-      - grafana
-      - blackbox_exporter
+     - prometheus
+     - node-exporter
+     - grafana
+     - blackbox_exporter
 
 
 

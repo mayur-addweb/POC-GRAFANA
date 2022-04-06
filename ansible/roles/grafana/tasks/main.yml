@@ -50,16 +50,16 @@
   community.grafana.grafana_datasource:
     name: pro
     ds_type: prometheus
-    ds_url: "http://18.119.156.51:9090"
+    ds_url: "http://13.58.164.48:9090"
     access: direct
-    grafana_url: "http://18.119.156.51:3000"
+    grafana_url: "http://13.58.164.48:3000"
     grafana_user: "admin"
-    grafana_password: "admin"
+    grafana_password: "addweb"
     org_id: "1"
 
 - name: Import Grafana dashboard node
   community.grafana.grafana_dashboard:
-    grafana_url: http://18.119.156.51:3000
+    grafana_url: http://13.58.164.48:3000
     grafana_user: "admin"
     grafana_password: "addweb"
     folder: General

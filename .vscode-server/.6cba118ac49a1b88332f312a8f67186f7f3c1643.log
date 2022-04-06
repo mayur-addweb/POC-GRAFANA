@@ -7,7 +7,37 @@
 * as described in the license https://aka.ms/vscode-remote/license
 *
 
-Extension host agent listening on 36615
+Extension host agent listening on 45683
 
-[11:58:51] Extension host agent started.
-[11:58:52] [127.0.0.1][4b4e8e78][ManagementConnection] Unknown reconnection token (never seen).
+[06:38:35] Extension host agent started.
+[06:38:35] Deleted from disk pascalreitermann93.vscode-yaml-sort /home/ubuntu/.vscode-server/extensions/pascalreitermann93.vscode-yaml-sort-5.1.6
+[06:38:36] [127.0.0.1][7d4c7029][ManagementConnection] New connection established.
+[06:38:36] [127.0.0.1][88fc09fd][ExtensionHostConnection] New connection established.
+[06:38:36] [127.0.0.1][88fc09fd][ExtensionHostConnection] <1942> Launched Extension Host Process.
+[06:38:40] Installing extension: pascalreitermann93.vscode-yaml-sort
+[06:38:40] Downloaded extension: pascalreitermann93.vscode-yaml-sort /home/ubuntu/.vscode-server/data/CachedExtensionVSIXs/pascalreitermann93.vscode-yaml-sort-5.3.0
+[06:38:41] Extracted extension to /home/ubuntu/.vscode-server/extensions/.de81f7b7-734c-419a-88ac-3e2cc328fdf0: pascalreitermann93.vscode-yaml-sort
+[06:38:41] Renamed to /home/ubuntu/.vscode-server/extensions/pascalreitermann93.vscode-yaml-sort-5.3.0
+[06:38:41] Extracting completed. pascalreitermann93.vscode-yaml-sort
+[06:38:41] Extension installed successfully: pascalreitermann93.vscode-yaml-sort
+[06:38:44] [127.0.0.1][7d4c7029][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[06:38:45] [127.0.0.1][88fc09fd][ExtensionHostConnection] <1942> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[06:38:45] Last EH closed, waiting before shutting down
+[06:38:46] [127.0.0.1][8fe2476e][ManagementConnection] New connection established.
+[06:38:46] [127.0.0.1][8e2adf15][ExtensionHostConnection] New connection established.
+[06:38:46] [127.0.0.1][8e2adf15][ExtensionHostConnection] <1963> Launched Extension Host Process.
+rejected promise not handled within 1 second: Error: Could not find pty with id "3"
+stack trace: Error: Could not find pty with id "3",    at M._throwIfNoPty (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:17:5468),    at M.updateTitle (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:17:2172),    at Object.call (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:13:8402),    at f.onPromise (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at f.onRawMessage (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at D.fire (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.S (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:6:32863),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "3",    at M._throwIfNoPty (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:17:5468),    at M.updateTitle (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:17:2172),    at Object.call (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:13:8402),    at f.onPromise (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at f.onRawMessage (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at D.fire (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.S (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:6:32863),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
+rejected promise not handled within 1 second: Error: Could not find pty with id "3"
+stack trace: Error: Could not find pty with id "3",    at M._throwIfNoPty (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:17:5468),    at M.updateIcon (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:17:2232),    at Object.call (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:13:8402),    at f.onPromise (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at f.onRawMessage (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at D.fire (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.S (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:6:32863),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "3",    at M._throwIfNoPty (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:17:5468),    at M.updateIcon (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:17:2232),    at Object.call (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:13:8402),    at f.onPromise (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at f.onRawMessage (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at D.fire (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.S (/home/ubuntu/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/out/vs/platform/terminal/node/ptyHostMain.js:6:32863),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
+Got delay-shutdown request while in shutdown timeout, delaying
+[06:40:52] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[06:40:52] Cancelling previous shutdown timeout
+[06:40:53] [127.0.0.1][8fe2476e][ManagementConnection] The client has reconnected.
+[06:40:54] [127.0.0.1][8e2adf15][ExtensionHostConnection] The client has reconnected.
+New EH opened, aborting shutdown
+[06:45:52] New EH opened, aborting shutdown
