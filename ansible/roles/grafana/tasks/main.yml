@@ -1,5 +1,5 @@
 ---
-# #tasks file for grafana
+#tasks file for grafana
 - name: add grafana gpg key
   delegate_to: 127.0.0.1
   shell: curl https://packages.grafana.com/gpg.key | sudo apt-key add -
@@ -45,26 +45,24 @@
     state: restarted
   become: yes
 
-
 - name: create prometheus datasource
   community.grafana.grafana_datasource:
     name: pro
     ds_type: prometheus
-    ds_url: "http://13.58.164.48:9090"
+    ds_url: "http://18.222.231.2:9090"
     access: direct
-    grafana_url: "http://13.58.164.48:3000"
+    grafana_url: "http://18.222.231.2:3000"
     grafana_user: "admin"
     grafana_password: "addweb"
     org_id: "1"
 
-- name: Import Grafana dashboard node
-  community.grafana.grafana_dashboard:
-    grafana_url: http://13.58.164.48:3000
-    grafana_user: "admin"
-    grafana_password: "addweb"
-    folder: General
-    dashboard_url: https://grafana.com/api/dashboards/1860/revisions/26/download
-    overwrite: yes
+# - name: Import Grafana dashboard blackbox
+#   community.grafana.grafana_dashboard:
+#     grafana_url: http://18.222.231.2:3000
+#     grafana_user: "admin"
+#     grafana_password: "addweb"
+#     folder: General
+#     dashboard_url: https://grafana.com/api/dashboards/11074/revisions/9/download
+#     overwrite: yes
 
 
-   
